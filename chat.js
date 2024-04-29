@@ -15,10 +15,10 @@ var initESW = function(gslbBaseURL) {
 
     //embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
 
-    /*embedded_svc.settings.prepopulatedPrechatFields =
+    embedded_svc.settings.prepopulatedPrechatFields =
     {
         FirstName: 'Marcelo'
-    };*/
+    };
 
     embedded_svc.settings.extraPrechatFormDetails = [{
         "label": "Email",
@@ -96,8 +96,6 @@ var initESW = function(gslbBaseURL) {
 };
 
 if (!window.embedded_svc) {
-    console.log('teste 0');
-     console.log('teste 01');
     var s = document.createElement('script');
     s.setAttribute('src', 'https://newloft--uat.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
     s.onload = function() {
@@ -105,6 +103,5 @@ if (!window.embedded_svc) {
     };
     document.body.appendChild(s);
 } else {
-    console.log('teste 1');
     initESW('https://service.force.com');
 }
