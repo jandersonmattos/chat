@@ -1,0 +1,23 @@
+<html>
+<style type='text/css'>
+	.embeddedServiceHelpButton .helpButton .uiButton {
+		background-color: #36B7A7;
+		font-family: "Arial", sans-serif;
+	}
+	.embeddedServiceHelpButton .helpButton .uiButton:focus {
+		outline: 1px solid #768086;
+	}
+    .message {
+    	background-color: #36B7A7;
+    	border-style: none;
+    	color:#fff;
+    	font-weight: normal;
+    	text-shadow: none;
+        font-size: 10px;
+        overflow: visible!important;
+    }    
+</style>
+<head>
+  <script type='text/javascript' src='https://newloft--uat.sandbox.my.site.com/resource/1714355443/teste'></script>
+</head>
+</html>
