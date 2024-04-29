@@ -12,14 +12,16 @@
         {
             FirstName: 'Marcelo'
         };
-
-			s.onload = function() {
+console.log('teste3');
+	var s = document.createElement('script');
+		s.setAttribute('src', 'https://newloft--uat.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.onload = function() {
 			initESW(null);
 		};
 		document.body.appendChild(s);
 	} else {
     
-console.log('teste3');
+console.log('teste4');
 	
 	}
 		</script>
