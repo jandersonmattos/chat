@@ -1,16 +1,16 @@
-	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #36B7A7;
-		font-family: "Arial", sans-serif;
-	}
-	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #768086;
-	}
-    .message {
-    	background-color: #36B7A7;
-    	border-style: none;
-    	color:#fff;
-    	font-weight: normal;
-    	text-shadow: none;
-        font-size: 10px;
-        overflow: visible!important;
-    }    
+.embeddedServiceHelpButton .helpButton .uiButton {
+	background-color: #36B7A7;
+	font-family: "Arial", sans-serif;
+}
+.embeddedServiceHelpButton .helpButton .uiButton:focus {
+	outline: 1px solid #768086;
+}
+.message {
+	background-color: #36B7A7;
+	border-style: none;
+	color:#fff;
+	font-weight: normal;
+	text-shadow: none;
+	font-size: 10px;
+	overflow: visible!important;
+}    
