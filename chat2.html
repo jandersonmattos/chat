@@ -4,11 +4,19 @@
    <link rel="stylesheet" href="chat.css">
 
 	<script type='text/javascript'>
-		console.log('teste2');
+	
+
+		if (!window.embedded_svc) {
+			console.log('teste2');
 	embedded_svc.settings.prepopulatedPrechatFields =
         {
             FirstName: 'Marcelo'
         };
+	} else {
+    
+console.log('teste3');
+	
+	}
 		</script>
 </head>
 	<body></body>
