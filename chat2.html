@@ -1,30 +1,7 @@
 <html>
 <head>
-  <script type='text/javascript' src='chat.js'></script>
-   <link rel="stylesheet" href="chat.css">
-
-	<script type='text/javascript'>
-	
-
-		if (!window.embedded_svc) {
-			console.log('teste2');
-	embedded_svc.settings.prepopulatedPrechatFields =
-        {
-            FirstName: 'Marcelo'
-        };
-console.log('teste3');
-	var s = document.createElement('script');
-		s.setAttribute('src', 'https://newloft--uat.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
-		s.onload = function() {
-			initESW(null);
-		};
-		document.body.appendChild(s);
-	} else {
-    
-console.log('teste4');
-	
-	}
-		</script>
+  <script type='text/javascript' src='http://chat-salesforce.s3-website.us-east-2.amazonaws.com/chat.js'></script>
+   <link rel="stylesheet" href="https://chat-salesforce.s3-website.us-east-2.amazonaws.com/chat.css">
 </head>
 	<body></body>
 </html>
