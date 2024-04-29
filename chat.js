@@ -15,11 +15,6 @@ var initESW = function(gslbBaseURL) {
 
     //embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
 
-    embedded_svc.settings.prepopulatedPrechatFields =
-    {
-        FirstName: 'Marcelo'
-    };
-
     embedded_svc.settings.extraPrechatFormDetails = [{
         "label": "Email",
         "value": "janderson.candido@outlook.com",
