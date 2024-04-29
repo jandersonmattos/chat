@@ -105,7 +105,7 @@ var initESW = function(gslbBaseURL) {
 		document.body.appendChild(s);
 	} else {
     
-console.log('teste script');
+console.log('teste script 2');
 		initESW('https://service.force.com');
 	}
 
