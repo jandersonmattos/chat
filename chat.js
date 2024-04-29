@@ -97,6 +97,7 @@ var initESW = function(gslbBaseURL) {
 	};
 
 	if (!window.embedded_svc) {
+		console.log('teste 0');
 		var s = document.createElement('script');
 		s.setAttribute('src', 'https://newloft--uat.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
@@ -105,7 +106,7 @@ var initESW = function(gslbBaseURL) {
 		document.body.appendChild(s);
 	} else {
     
-console.log('teste script 2');
+console.log('teste 1');
 		initESW('https://service.force.com');
 	}
 
